@@ -51,7 +51,8 @@ describe ('Human', () => {
 	});
 	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
 	test('should return number of human years left on Earth', () => {
-		expect(useHuman.calculateMercuryLifeExp()).toEqual(10);
+		expect(useHuman.calculateMercuryLifeExp()).toEqual(11.2);
 	});
+	
 
 })
