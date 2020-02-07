@@ -10,7 +10,6 @@ describe ('Human', () => {
 
 	// test for NaN not working 
 	// test('should check if user entered in a number', () => {
-  //   let humanAge = new Human(this.age)
   //       expect(humanAge).toEqual(true)
 	//   });
 	

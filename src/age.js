@@ -4,16 +4,16 @@ export class Human {
         this.age = age;
     }
 
-    calculateEarthYears(){
-        let ourAge = this.age;
-        if (ourAge === isNumber){
-            ourAgeNow.push(ourAge);
-            console.log(ourAgeNow)
-            return ourAge
-        } else {
-            return false
-        }
-    };
+    // not currently testing this, will check for NaN
+    // calculateEarthYears(){
+    //     let ourAge = this.age;
+    //     if (ourAge === isNumber){
+    //         ourAgeNow.push(ourAge);
+    //         return ourAge
+    //     } else {
+    //         return false
+    //     }
+    // };
 
     calculateMercuryYears(){
         let age = this.age;
@@ -105,5 +105,5 @@ export class Human {
         }
     };
     
-    
+
 }
