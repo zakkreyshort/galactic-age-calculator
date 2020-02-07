@@ -54,7 +54,7 @@ describe ('Human', () => {
 		expect(useHuman.calculateMercuryLifeExp()).toEqual(11.2);
 	});
 
-	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
+	// test successfully returns Venus years left on Venus OR how many years ahead you are
 	test('should return number of human years left OR past LE on Venus', () => {
 		expect(useHuman.calculateVenusLifeExp()).toEqual(29.1);
 	});
