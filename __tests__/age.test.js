@@ -39,5 +39,9 @@ describe ('Human', () => {
 	test('should return number of human years on Jupiter', () => {
 		expect(useHuman.calculateJupiterYears()).toEqual(296.5);
 	});
-	
+
+	// test successfully returns human years left on Earth
+	test('should return number of human years left on Earth', () => {
+		expect(useHuman.calculateEarthLifeExp()).toEqual();
+	});
 })

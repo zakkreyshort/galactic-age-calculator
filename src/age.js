@@ -40,5 +40,17 @@ export class Human {
         return jupiterYears;
     };
 
+    calculateEarthLifeExp(){
+        let age = this.age;
+        const earthLE = 72;
+        let yearsLeft = ((earthLE - age));
+        let yearsPast = ((age - earthLE));
+        if (age <= earthLE){
+            return yearsLeft;
+        } else {
+            return yearsPast;
+        }
+    };
+
     
 }
