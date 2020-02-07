@@ -26,6 +26,6 @@ describe ('Human', () => {
 	});
 
 	test('should return number of human years on Venus', () => {
-		expect(useHuman.calculateVenusYears()).toEqual(16);
+		expect(useHuman.calculateVenusYears()).toEqual(15.5);
 	});
 })
