@@ -51,7 +51,7 @@ export class Human {
         if (age <= earthLE){
             return yearsLeft;
         } else {
-            return yearsPast;
+            return "-" + yearsPast;
         }
     };
 
@@ -64,7 +64,7 @@ export class Human {
         if (mercuryYears <= mercuryLE){
             return yearsLeft;
         } else {
-            return yearsPast;
+            return "-" + yearsPast;
         }
     };
 
@@ -77,7 +77,7 @@ export class Human {
         if (venusYears <= venusLE){
             return yearsLeft;
         } else {
-            return yearsPast;
+						return "-" + yearsPast;
         }
     };
 
@@ -90,7 +90,7 @@ export class Human {
         if (marsYears <= marsLE){
             return yearsLeft;
         } else {
-            return yearsPast;
+						return "-" + yearsPast;
         }
     };
 
@@ -103,9 +103,8 @@ export class Human {
         if (jupiterYears <= jupiterLE){
             return yearsLeft;
         } else {
-            return yearsPast;
+            return "-" + yearsPast;
         }
     };
-    
 }
 

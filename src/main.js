@@ -38,6 +38,26 @@ $(document).ready(function(){
 
 
 
-		
+		// life expectancy 
+		// earthLE
+		let LEEarth = human.calculateEarthLifeExp(ogAge);
+		$("#earthLEOutput").text(LEEarth);
+
+		// mercuryLE
+		let LEMercury = human.calculateMercuryLifeExp(ogAge);
+		$("#mercuryLEOutput").text(LEMercury);
+
+		// venusLE
+		let LEVenus = human.calculateVenusLifeExp(ogAge);
+		$("#venusLEOutput").text(LEVenus);
+
+		// marsLE 
+		let LEMars = human.calculateMarsLifeExp(ogAge);
+		$("#marsLEOutput").text(LEMars);
+
+		// jupiterLE
+		let LEJupiter = human.calculateJupiterLifeExp(ogAge);
+		$("#jupiterLEOutput").text(LEJupiter);
+
 	});
 })
