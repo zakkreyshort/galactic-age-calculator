@@ -30,9 +30,12 @@ describe ('Human', () => {
 		expect(useHuman.calculateVenusYears()).toEqual(15.5);
 	});
 
+	// test succesfully returns human age on Mars
 	test('should return number of human years on Mars', () => {
 		expect(useHuman.calculateMarsYears()).toEqual(47);
 	});
+
+	
 
 
 })

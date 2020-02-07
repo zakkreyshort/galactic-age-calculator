@@ -32,5 +32,6 @@ export class Human {
         let age = this.age;
         let marsYears = ((age * 1.88));
         return marsYears;
-    }
+    };
+    
 }
