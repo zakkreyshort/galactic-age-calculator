@@ -16,6 +16,6 @@ describe ('Human', () => {
 	
 
 	test ('should return number of human years', () => {
-		expect(useHuman.age).toEqual(25);
+		expect(useHuman.age).toEqual(24);
 	});
 })
