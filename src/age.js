@@ -41,6 +41,8 @@ export class Human {
 
     // all life expectancy functions consider the earths LE age(72), then will multiply that by the "earth year" equivalent length for each planet
 
+    // all return both years till life expectancy, or years past life expectancy
+
     calculateEarthLifeExp(){
         let age = this.age;
         const earthLE = 72;
