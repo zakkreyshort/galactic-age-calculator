@@ -21,6 +21,6 @@ describe ('Human', () => {
 	});
 
 	test('should return age in murcury years', () =>{
-		expect(useHuman.calculateMercuryYears()).toEqual(5);
+		expect(useHuman.calculateMercuryYears()).toEqual(6);
 	})
 })
