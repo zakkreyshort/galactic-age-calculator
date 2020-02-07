@@ -77,6 +77,19 @@ export class Human {
         }
     };
 
+    calculateMarsLifeExp(){
+        let age = this.age;
+        let marsYears = ((age * 1.88));
+        const marsLE = 135.4;
+        let yearsLeft = ((marsLE - marsYears));
+        let yearsPast = ((marsYears - marsLE));
+        if (marsYears <= marsLE){
+            return yearsLeft;
+        } else {
+            return yearsPast;
+        }
+    };
+
 
     
 }
