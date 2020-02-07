@@ -21,22 +21,22 @@ describe ('Human', () => {
 
 	// test successfully returns human age on Mercury
 	test('should return age in mercury years', () =>{
-		expect(useHuman.calculateMercuryYears()).toEqual(6);
+		expect(useHuman.calculateMercuryYears()).toEqual(104.16666666666667);
 	});
 
 	// test successfully returns human age on Venus
 	test('should return number of human years on Venus', () => {
-		expect(useHuman.calculateVenusYears()).toEqual(15.5);
+		expect(useHuman.calculateVenusYears()).toEqual(40.32258064516129);
 	});
 
 	// test succesfully returns human age on Mars
 	test('should return number of human years on Mars', () => {
-		expect(useHuman.calculateMarsYears()).toEqual(47);
+		expect(useHuman.calculateMarsYears()).toEqual(13.297872340425533);
 	});
 
 	// test successfully returns human years on Jupiter
 	test('should return number of human years on Jupiter', () => {
-		expect(useHuman.calculateJupiterYears()).toEqual(296.5);
+		expect(useHuman.calculateJupiterYears()).toEqual(2.1079258010118043);
 	});
 
 	// test successfully returns human years left on Earth
@@ -51,22 +51,22 @@ describe ('Human', () => {
 
 	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
 	test('should return number of human years left OR past LE on Mercury', () => {
-		expect(useHuman.calculateMercuryLifeExp()).toEqual(11.2);
+		expect(useHuman.calculateMercuryLifeExp()).toEqual(195.83333333333331);
 	});
 
 	// test successfully returns Venus years left on Venus OR how many years ahead you are
 	test('should return number of human years left OR past LE on Venus', () => {
-		expect(useHuman.calculateVenusLifeExp()).toEqual(29.1);
+		expect(useHuman.calculateVenusLifeExp()).toEqual(75.77741935483871);
 	});
 
 	// test successfully returns Mars years left on Mars OR how many years ahead you are
 	test('should return number of human years left OR past LE on Mars', () => {
-		expect(useHuman.calculateMarsLifeExp()).toEqual(88.4);
+		expect(useHuman.calculateMarsLifeExp()).toEqual(25.002127659574462);
 	});
 
 	// test successfully returns Jupiter years left on Jupiter OR how many years ahead you are
 	test('should return number of human years left OR past LE on Jupiter', () => {
-		expect(useHuman.calculateJupiterLifeExp()).toEqual(557.4);
+		expect(useHuman.calculateJupiterLifeExp()).toEqual(3.9920741989881954);
 	});
 
 })

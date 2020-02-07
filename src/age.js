@@ -17,25 +17,25 @@ export class Human {
 
     calculateMercuryYears(){
         let age = this.age;
-        let mercuryYears = ((age * .24));
+        let mercuryYears = ((age / .24));
         return mercuryYears;
     };
 
     calculateVenusYears(){
         let age = this.age;
-        let venusYears = ((age * .62));
+        let venusYears = ((age / .62));
         return venusYears;
     };
 
     calculateMarsYears(){
         let age = this.age;
-        let marsYears = ((age * 1.88));
+        let marsYears = ((age / 1.88));
         return marsYears;
     };
 
     calculateJupiterYears(){
         let age = this.age;
-        let jupiterYears = ((age * 11.86));
+        let jupiterYears = ((age / 11.86));
         return jupiterYears;
     };
 
@@ -57,8 +57,8 @@ export class Human {
 
     calculateMercuryLifeExp(){
         let age = this.age;
-        let mercuryYears = ((age * .24));
-        const mercuryLE = 17.2;
+        let mercuryYears = ((age / .24));
+        const mercuryLE = 300;
         let yearsLeft = ((mercuryLE - mercuryYears));
         let yearsPast = ((mercuryYears - mercuryLE));
         if (mercuryYears <= mercuryLE){
@@ -70,8 +70,8 @@ export class Human {
 
     calculateVenusLifeExp(){
         let age = this.age;
-        let venusYears = ((age * .62));
-        const venusLE = 44.6;
+        let venusYears = ((age / .62));
+        const venusLE = 116.1;
         let yearsLeft = ((venusLE - venusYears));
         let yearsPast = ((venusYears - venusLE));
         if (venusYears <= venusLE){
@@ -83,8 +83,8 @@ export class Human {
 
     calculateMarsLifeExp(){
         let age = this.age;
-        let marsYears = ((age * 1.88));
-        const marsLE = 135.4;
+        let marsYears = ((age / 1.88));
+        const marsLE = 38.3;
         let yearsLeft = ((marsLE - marsYears));
         let yearsPast = ((marsYears - marsLE));
         if (marsYears <= marsLE){
@@ -96,8 +96,8 @@ export class Human {
 
     calculateJupiterLifeExp(){
         let age = this.age;
-        let jupiterYears = ((age * 11.86));
-        const jupiterLE = 853.9;
+        let jupiterYears = ((age / 11.86));
+        const jupiterLE = 6.1;
         let yearsLeft = ((jupiterLE - jupiterYears));
         let yearsPast = ((jupiterYears - jupiterLE));
         if (jupiterYears <= jupiterLE){
