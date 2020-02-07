@@ -7,7 +7,7 @@ import './styles.css';
 
 // front end
 $(document).ready(function(){
-	$("#galacticAgeForm").submit(function(event){
+	$("form#galacticAgeForm").submit(function(event){
 		event.preventDefault();
 		let ogAge = parseInt($("input#galacticAgeInput").val());
 		$("#earthAgeOutput").text(ogAge);
