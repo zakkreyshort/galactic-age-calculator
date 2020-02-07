@@ -33,5 +33,11 @@ export class Human {
         let marsYears = ((age * 1.88));
         return marsYears;
     };
-    
+
+    calculateJupiterYears(){
+        let age = this.age;
+        let jupiterYears = ((age * 11.86));
+        return jupiterYears;
+    };
+
 }
