@@ -62,7 +62,7 @@ describe ('Human', () => {
 
 	// test successfully returns Mars years left on Mars OR how many years ahead you are
 	test('should return number of human years left OR past LE on Mars', () => {
-		expect(useHuman.calculateMarsLifeExp()).toEqual(29.1);
+		expect(useHuman.calculateMarsLifeExp()).toEqual(88.4);
 	});
 
 
