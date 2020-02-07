@@ -2,7 +2,6 @@
 export class Human {
     constructor(age){
         this.age = age;
-        this.ourAgeNow = [];
     }
 
     calculateEarthYears(){
@@ -64,6 +63,20 @@ export class Human {
             return yearsPast;
         }
     };
+
+    calculateVenusLifeExp(){
+        let age = this.age;
+        let venusYears = ((age * .62));
+        const venusLE = 44.6;
+        let yearsLeft = ((venusLE - venusYears));
+        let yearsPast = ((venusYears - venusLE));
+        if (venusYears <= venusLE){
+            return yearsLeft;
+        } else {
+            return yearsPast;
+        }
+    };
+
 
     
 }

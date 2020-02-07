@@ -6,8 +6,7 @@ describe ('Human', () => {
 
 	beforeEach(() => {
 		useHuman = new Human(25)
-	})
-
+	});
 	// test for nan not working 
 	// test('should check if user entered in a number', () => {
   //   let humanAge = new Human(this.age)
@@ -46,13 +45,18 @@ describe ('Human', () => {
 	});
 
 	// test successfully returns human years left on Earth OR how many years ahead you are
-	test('should return number of human years left on Earth', () => {
+	test('should return number of human years left OR past LE on Earth', () => {
 		expect(useHuman.calculateEarthLifeExp()).toEqual(47);
 	});
+
 	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
-	test('should return number of human years left on Earth', () => {
+	test('should return number of human years left OR past LE on Mercury', () => {
 		expect(useHuman.calculateMercuryLifeExp()).toEqual(11.2);
 	});
-	
+
+	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
+	test('should return number of human years left OR past LE on Venus', () => {
+		expect(useHuman.calculateVenusLifeExp()).toEqual(11.2);
+	});
 
 })
