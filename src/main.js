@@ -22,7 +22,16 @@ $(document).ready(function(){
 		let mercuryAge = human.calculateMercuryYears(ogAge);
 		$("#mercuryAgeOutput").text(mercuryAge);
 
+		// output venus age
 		let venusAge = human.calculateVenusYears(ogAge);
 		$("#venusAgeOutput").text(venusAge);
+
+		// output mars age
+		let marsAge = human.calculateMarsYears(ogAge);
+		$("#marsAgeOutput").text(marsAge);
+
+		// output jupiter age
+		let jupiterAge = human.calculateJupiterYears(ogAge);
+		$("#jupiterAgeOutput").text(jupiterAge);
 	});
 })
