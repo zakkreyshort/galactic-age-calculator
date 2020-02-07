@@ -52,5 +52,18 @@ export class Human {
         }
     };
 
+    calculateMercuryLifeExp(){
+        let age = this.age;
+        let mercuryYears = ((age * .24));
+        const mercuryLE = 17.2;
+        let yearsLeft = ((mercuryLE - mercuryYears));
+        let yearsPast = ((mercuryYears - mercuryLE));
+        if (mercuryYears <= mercuryLE){
+            return yearsLeft;
+        } else {
+            return yearsPast;
+        }
+    };
+
     
 }

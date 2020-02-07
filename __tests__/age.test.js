@@ -9,10 +9,10 @@ describe ('Human', () => {
 	})
 
 	// test for nan not working 
-	test('should check if user entered in a number', () => {
-    let humanAge = new Human(this.age)
-        expect(humanAge).toEqual(true)
-	  });
+	// test('should check if user entered in a number', () => {
+  //   let humanAge = new Human(this.age)
+  //       expect(humanAge).toEqual(true)
+	//   });
 	
 
 	// test successfully returns human year on Earth
@@ -20,8 +20,8 @@ describe ('Human', () => {
 		expect(useHuman.age).toEqual(25);
 	});
 
-	// test successfully returns human age on Murcury
-	test('should return age in murcury years', () =>{
+	// test successfully returns human age on Mercury
+	test('should return age in mercury years', () =>{
 		expect(useHuman.calculateMercuryYears()).toEqual(6);
 	});
 
@@ -48,6 +48,10 @@ describe ('Human', () => {
 	// test successfully returns human years left on Earth OR how many years ahead you are
 	test('should return number of human years left on Earth', () => {
 		expect(useHuman.calculateEarthLifeExp()).toEqual(47);
+	});
+	// test successfully returns Mercury years left on Mercury OR how many years ahead you are
+	test('should return number of human years left on Earth', () => {
+		expect(useHuman.calculateMercuryLifeExp()).toEqual(10);
 	});
 
 })
