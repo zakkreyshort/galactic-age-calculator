@@ -15,12 +15,17 @@ describe ('Human', () => {
 	//   });
 	
 
-	// test successfully returns human year
+	// test successfully returns human year on Earth
 	test ('should return number of human years', () => {
 		expect(useHuman.age).toEqual(25);
 	});
 
+	// test successfully returns human age on Murcury
 	test('should return age in murcury years', () =>{
 		expect(useHuman.calculateMercuryYears()).toEqual(6);
-	})
+	});
+
+	test('should return number of human years on Venus', () => {
+		expect(useHuman.calculateVenusYears()).toEqual(16);
+	});
 })

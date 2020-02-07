@@ -21,4 +21,11 @@ export class Human {
         let mercuryYears = ((age * .24));
         return mercuryYears;
     };
+
+    calculateVenusYears(){
+        let age = this.age;
+        let venusYears = ((age * .62));
+        return venusYears;
+    };
+    
 }
