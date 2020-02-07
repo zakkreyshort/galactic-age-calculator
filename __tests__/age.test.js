@@ -70,6 +70,4 @@ describe ('Human', () => {
 		expect(useHuman.calculateJupiterLifeExp()).toEqual(557.4);
 	});
 
-
-
 })
