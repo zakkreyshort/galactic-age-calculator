@@ -11,12 +11,18 @@ import './styles.css';
 $(document).ready(function(){
 	$("form#galacticAgeForm").submit(function(event){
 		event.preventDefault();
+
 		// output earth age 
 		let ogAge = parseInt($("input#galacticAgeInput").val());
 		$("#earthAgeOutput").text(ogAge);
+
 		let human = new Human(ogAge);
 
+		// output mercury age
 		let mercuryAge = human.calculateMercuryYears(ogAge);
 		$("#mercuryAgeOutput").text(mercuryAge);
+
+		let venusAge = human.calculateVenusYears(ogAge);
+		$("#venusAgeOutput").text(venusAge);
 	});
 })
