@@ -39,6 +39,8 @@ export class Human {
         return jupiterYears;
     };
 
+    // all life expectancy functions consider the earths LE age(72), then will multiply that by the "earth year" equivalent length for each planet
+
     calculateEarthLifeExp(){
         let age = this.age;
         const earthLE = 72;
@@ -90,6 +92,17 @@ export class Human {
         }
     };
 
-
+    calculateJupiterLifeExp(){
+        let age = this.age;
+        let jupiterYears = ((age * 11.86));
+        const jupiterLE = 853.9;
+        let yearsLeft = ((jupiterLE - jupiterYears));
+        let yearsPast = ((jupiterYears - jupiterLE));
+        if (jupiterYears <= jupiterLE){
+            return yearsLeft;
+        } else {
+            return yearsPast;
+        }
+    };
     
 }

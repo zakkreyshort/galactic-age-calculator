@@ -65,5 +65,11 @@ describe ('Human', () => {
 		expect(useHuman.calculateMarsLifeExp()).toEqual(88.4);
 	});
 
+	// test successfully returns Jupiter years left on Jupiter OR how many years ahead you are
+	test('should return number of human years left OR past LE on Jupiter', () => {
+		expect(useHuman.calculateJupiterLifeExp()).toEqual(557.4);
+	});
+
+
 
 })
