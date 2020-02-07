@@ -5,7 +5,7 @@ describe ('Human', () => {
 	let useHuman;
 
 	beforeEach(() => {
-		useHuman = new Human(24)
+		useHuman = new Human(25)
 	})
 
 	// test for nan not working 
@@ -15,7 +15,12 @@ describe ('Human', () => {
 	//   });
 	
 
+	// test successfully returns human year
 	test ('should return number of human years', () => {
-		expect(useHuman.age).toEqual(24);
+		expect(useHuman.age).toEqual(25);
 	});
+
+	test('should return age in murcury years', () =>{
+		expect(useHuman.calculateMercuryYears()).toEqual(5);
+	})
 })

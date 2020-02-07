@@ -8,9 +8,17 @@ export class Human {
     calculateEarthYears(){
         let ourAge = this.age;
         if (ourAge === isNumber){
+            ourAgeNow.push(ourAge);
+            console.log(ourAgeNow)
             return ourAge
         } else {
             return false
         }
+    };
+
+    calculateMercuryYears(){
+        let age = this.age;
+        let mercuryYears = ((age * .24));
+        return mercuryYears;
     };
 }
