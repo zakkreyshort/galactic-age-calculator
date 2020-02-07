@@ -31,8 +31,8 @@ describe ('Human', () => {
 	});
 
 	test('should return number of human years on Mars', () => {
-		expect(useHuman.calculateMarsYears()).toEqual(45);
+		expect(useHuman.calculateMarsYears()).toEqual(47);
 	});
 
-	
+
 })
