@@ -42,6 +42,6 @@ describe ('Human', () => {
 
 	// test successfully returns human years left on Earth
 	test('should return number of human years left on Earth', () => {
-		expect(useHuman.calculateEarthLifeExp()).toEqual();
+		expect(useHuman.calculateEarthLifeExp()).toEqual(47);
 	});
 })
