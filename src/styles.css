@@ -2,3 +2,12 @@ body {
     background-color: lightcoral;
     font-family: 'Roboto Condensed', sans-serif;
 }
+#displayLE{
+    display: none;
+    background-color: lightgreen
+}
+
+#displayMessage{
+    display: none;
+    background-color: lightblue;
+}

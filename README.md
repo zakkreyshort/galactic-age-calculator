@@ -20,8 +20,8 @@ _This project is a webpage that allows a user to input their age, and it will re
 | User enters age for Venus | 25 | 15.5 |
 | User enters age for Mars | 25 | 47 |
 | User enters age for Jupiter | 25 | 296.5 |
-| User enters age for Life Expectancy | 25 | "You have x many years left until your doom on 'thisPlanet'" |
-| User enters age for years passed Life Expectancy | 100 | "Congrats, you have lived x years past the average on 'planet'" |
+| User enters age for Life Expectancy | 25 | 47 |
+| User enters age for years passed Life Expectancy | 100 | -28 |
 
 
 ## Setup/Installation Requirements
@@ -33,11 +33,11 @@ _This project is a webpage that allows a user to input their age, and it will re
 * _Open index.html in a browser of your choice (e.g., Google Chrome)._
 
 ## Bugs
-_UPDATE LATER._
+_Currently the enter screen does not have function, img tag would not load properly._
 
 ## Technologies Used
 
-_Git, HTML, CSS, JavaScript, jQuery UPDATELATER_
+_Git, HTML, CSS, JavaScript, jQuery, Bootstrap, Jest, Node_
 
 ### License
 

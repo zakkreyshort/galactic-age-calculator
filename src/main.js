@@ -11,6 +11,8 @@ import './styles.css';
 $(document).ready(function(){
 	$("form#galacticAgeForm").submit(function(event){
 		event.preventDefault();
+		$("#displayLE").show();
+		$("#displayMessage").show();
 
 		// just ages
 

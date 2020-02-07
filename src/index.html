@@ -5,6 +5,12 @@
     <title>Galactic Age Calculator</title>
 </head>
 <body>
+	<!-- entrance img and button, img not loading -->
+	<div id="enterHere">
+		<img src="./../img/milkyway.jpg" alt="milkyway">
+		<h2>Welcome to my project, please hit enter below.</h2>
+		<button type="submit" class="btn btn-success">Enter</button>
+	</div>
 
 	<!-- form to submit age -->
     <div id="enterAgeForm" class="container">
@@ -27,6 +33,7 @@
 		</div>
 
 <!-- displaying life expectancy for each planet -->
+<h4 id="displayLE">Ages listed below are in relation to life expectancy on each planet, if a number is positive, you have x amount of years to live. If a number is negative, good job! You have surpassed the average life expectancy of your planet.</h4>
 		<div id="outputLEResult" class="container">
 			<ul>
 				<li>Earth life expectancy: <span id="earthLEOutput"></span></li>
@@ -37,8 +44,16 @@
 			</ul>
 		</div>
 
-		<div id="displayMessage">
-			
+		<div id="displayMessage" class="container-fluid">
+			<p>Thank you for trying my project.</p>
+			<p>Here are some of the calculations used to arrive to these age conclusions:</p>
+			<ul>
+				<li>Earth Age: <b>Please don't make me explain this one.</b></li>
+				<li>Mercury Age: Age / .24</li>
+				<li>Venus Age: Age / .62</li>
+				<li>Mars Age: Age / 1.88</li>
+				<li>Jupiter Age: Age / 11.86</li>
+			</ul>
 		</div>
 
 
