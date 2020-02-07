@@ -4,13 +4,23 @@
     <title>Galactic Age Calculator</title>
 </head>
 <body>
-    <div class="container">
+    <div id="enterAgeForm" class="container">
 			<h2>Enter your age to see how old you are in the Universe!</h2>
 			<form id="galacticAgeForm">
 					<input id="galacticAgeInput" type="text">
 					<button type="submit" class="btn">Submit!</button>
 			</form>
-    </div>
+		</div>
+		<div id="outputAgeResults" class="container">
+			<ul>
+				<li>Earth Age: <span id="earthAgeOutput"></span></li>
+				<li>Mercury Age: <span id="mercuryAgeOutput"></span></li>
+				<li>Venus Age: <span id="venusAgeOutput"></span></li>
+				<li>Mars Age: <span id="marsAgeOutput"></span></li>
+				<li>Jupiter Age: <span id="jupiterAgeOutput"></span></li>
+			</ul>
+		</div>
+
     
 </body>
 </html>

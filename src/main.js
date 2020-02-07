@@ -5,10 +5,11 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
-
+// front end
 $(document).ready(function(){
-	$("form#galacticAgeForm").submit(function(event){
+	$("#galacticAgeForm").submit(function(event){
 		event.preventDefault();
-		
+		let ogAge = parseInt($("input#galacticAgeInput").val());
+		$("#earthAgeOutput").text(ogAge);
 	});
 })
