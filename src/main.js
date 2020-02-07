@@ -12,6 +12,8 @@ $(document).ready(function(){
 	$("form#galacticAgeForm").submit(function(event){
 		event.preventDefault();
 
+		// just ages
+
 		// output earth age 
 		let ogAge = parseInt($("input#galacticAgeInput").val());
 		$("#earthAgeOutput").text(ogAge);
@@ -33,5 +35,9 @@ $(document).ready(function(){
 		// output jupiter age
 		let jupiterAge = human.calculateJupiterYears(ogAge);
 		$("#jupiterAgeOutput").text(jupiterAge);
+
+
+
+		
 	});
 })
