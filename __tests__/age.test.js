@@ -68,5 +68,4 @@ describe ('Human', () => {
 	test('should return number of human years left OR past LE on Jupiter', () => {
 		expect(useHuman.calculateJupiterLifeExp()).toEqual(3.9920741989881954);
 	});
-
 })

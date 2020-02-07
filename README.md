@@ -33,7 +33,7 @@ _This project is a webpage that allows a user to input their age, and it will re
 * _Open index.html in a browser of your choice (e.g., Google Chrome)._
 
 ## Bugs
-_Currently the enter screen does not have function, img tag would not load properly._
+_Currently the enter screen does not have function, img tag would not load properly. NaN function currently not working._
 
 ## Technologies Used
 

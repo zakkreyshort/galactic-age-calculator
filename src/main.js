@@ -5,8 +5,6 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
-
-
 // front end
 $(document).ready(function(){
 	$("form#galacticAgeForm").submit(function(event){
@@ -39,7 +37,6 @@ $(document).ready(function(){
 		$("#jupiterAgeOutput").text(jupiterAge);
 
 
-
 		// life expectancy 
 		// earthLE
 		let LEEarth = human.calculateEarthLifeExp(ogAge);
@@ -60,6 +57,5 @@ $(document).ready(function(){
 		// jupiterLE
 		let LEJupiter = human.calculateJupiterLifeExp(ogAge);
 		$("#jupiterLEOutput").text(LEJupiter);
-
 	});
 })

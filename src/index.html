@@ -5,7 +5,7 @@
     <title>Galactic Age Calculator</title>
 </head>
 <body>
-	<!-- entrance img and button, img not loading -->
+	<!-- entrance img and button, img not loading, currently hidden -->
 	<div id="enterHere">
 		<img src="./../img/milkyway.jpg" alt="milkyway">
 		<h2>Welcome to my project, please hit enter below.</h2>
@@ -13,51 +13,48 @@
 	</div>
 
 	<!-- form to submit age -->
-    <div id="enterAgeForm" class="container">
-			<h2>Enter your age to see how old you are in the Universe!</h2>
-			<form id="galacticAgeForm">
-					<input class="form" id="galacticAgeInput" type="text">
-					<button type="submit" class="btn btn-info">Submit!</button>
-			</form>
-		</div>
+	<div id="enterAgeForm" class="container">
+		<h2>Enter your age to see how old you are in the Universe!</h2>
+		<form id="galacticAgeForm">
+				<input class="form" id="galacticAgeInput" type="text">
+				<button type="submit" class="btn btn-info">Submit!</button>
+		</form>
+	</div>
 
 <!-- displaying age on different planets -->
-		<div id="outputAgeResults" class="container">
-			<ul>
-				<li>Earth Age: <span id="earthAgeOutput"></span></li>
-				<li>Mercury Age: <span id="mercuryAgeOutput"></span></li>
-				<li>Venus Age: <span id="venusAgeOutput"></span></li>
-				<li>Mars Age: <span id="marsAgeOutput"></span></li>
-				<li>Jupiter Age: <span id="jupiterAgeOutput"></span></li>
-			</ul>
-		</div>
+	<div id="outputAgeResults" class="container">
+		<ul>
+			<li>Earth Age: <span id="earthAgeOutput"></span></li>
+			<li>Mercury Age: <span id="mercuryAgeOutput"></span></li>
+			<li>Venus Age: <span id="venusAgeOutput"></span></li>
+			<li>Mars Age: <span id="marsAgeOutput"></span></li>
+			<li>Jupiter Age: <span id="jupiterAgeOutput"></span></li>
+		</ul>
+	</div>
 
 <!-- displaying life expectancy for each planet -->
-<h4 id="displayLE">Ages listed below are in relation to life expectancy on each planet, if a number is positive, you have x amount of years to live. If a number is negative, good job! You have surpassed the average life expectancy of your planet.</h4>
-		<div id="outputLEResult" class="container">
-			<ul>
-				<li>Earth life expectancy: <span id="earthLEOutput"></span></li>
-				<li>Mercury life expectancy: <span id="mercuryLEOutput"></span></li>
-				<li>Venus life expectancy: <span id="venusLEOutput"></span></li>
-				<li>Mars life expectancy: <span id="marsLEOutput"></span></li>
-				<li>Jupiter life expectancy: <span id="jupiterLEOutput"></span></li>
-			</ul>
-		</div>
+	<h4 id="displayLE">Ages listed below are in relation to life expectancy on each planet, if a number is positive, you have x amount of years to live. If a number is negative, good job! You have surpassed the average life expectancy of your planet.</h4>
+	<div id="outputLEResult" class="container">
+		<ul>
+			<li>Earth life expectancy: <span id="earthLEOutput"></span></li>
+			<li>Mercury life expectancy: <span id="mercuryLEOutput"></span></li>
+			<li>Venus life expectancy: <span id="venusLEOutput"></span></li>
+			<li>Mars life expectancy: <span id="marsLEOutput"></span></li>
+			<li>Jupiter life expectancy: <span id="jupiterLEOutput"></span></li>
+		</ul>
+	</div>
 
-		<div id="displayMessage" class="container-fluid">
-			<p>Thank you for trying my project.</p>
-			<p>Here are some of the calculations used to arrive to these age conclusions:</p>
-			<ul>
-				<li>Earth Age: <b>Please don't make me explain this one.</b></li>
-				<li>Mercury Age: Age / .24</li>
-				<li>Venus Age: Age / .62</li>
-				<li>Mars Age: Age / 1.88</li>
-				<li>Jupiter Age: Age / 11.86</li>
-			</ul>
-		</div>
-
-
-
-    
+<!-- thank you message  -->
+	<div id="displayMessage" class="container-fluid">
+		<p>Thank you for trying my project.</p>
+		<p>Here are some of the calculations used to arrive to these age conclusions:</p>
+		<ul>
+			<li>Earth Age: <b>Please don't make me explain this one.</b></li>
+			<li>Mercury Age: Age / .24</li>
+			<li>Venus Age: Age / .62</li>
+			<li>Mars Age: Age / 1.88</li>
+			<li>Jupiter Age: Age / 11.86</li>
+		</ul>
+	</div>
 </body>
 </html>

@@ -4,7 +4,11 @@ body {
 }
 #displayLE{
     display: none;
-    background-color: lightgreen
+    background-color: lightgreen;
+}
+
+#enterHere{
+    display: none;
 }
 
 #displayMessage{
