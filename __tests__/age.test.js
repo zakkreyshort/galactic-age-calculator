@@ -25,7 +25,14 @@ describe ('Human', () => {
 		expect(useHuman.calculateMercuryYears()).toEqual(6);
 	});
 
+	// test successfully returns human age on Venus
 	test('should return number of human years on Venus', () => {
 		expect(useHuman.calculateVenusYears()).toEqual(15.5);
 	});
+
+	test('should return number of human years on Mars', () => {
+		expect(useHuman.calculateMarsYears()).toEqual(45);
+	});
+
+	
 })
