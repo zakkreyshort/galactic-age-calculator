@@ -16,26 +16,22 @@ export class Human {
     // };
 
 	calculateMercuryYears(){
-			let age = this.age;
-			let mercuryYears = ((age / .24));
+			let mercuryYears = ((this.age / .24));
 			return mercuryYears;
 	};
 
 	calculateVenusYears(){
-			let age = this.age;
-			let venusYears = ((age / .62));
+			let venusYears = ((this.age / .62));
 			return venusYears;
 	};
 
 	calculateMarsYears(){
-			let age = this.age;
-			let marsYears = ((age / 1.88));
+			let marsYears = ((this.age / 1.88));
 			return marsYears;
 	};
 
 	calculateJupiterYears(){
-			let age = this.age;
-			let jupiterYears = ((age / 11.86));
+			let jupiterYears = ((this.age / 11.86));
 			return jupiterYears;
 	};
 
@@ -44,11 +40,10 @@ export class Human {
     // all return both years till life expectancy, or years past life expectancy
 
 	calculateEarthLifeExp(){
-			let age = this.age;
 			const earthLE = 72;
-			let yearsLeft = ((earthLE - age));
-			let yearsPast = ((age - earthLE));
-			if (age <= earthLE){
+			let yearsLeft = ((earthLE - this.age));
+			let yearsPast = ((this.age - earthLE));
+			if (this.age <= earthLE){
 					return yearsLeft;
 			} else {
 					return "-" + yearsPast;
@@ -56,8 +51,7 @@ export class Human {
 	};
 
 	calculateMercuryLifeExp(){
-			let age = this.age;
-			let mercuryYears = ((age / .24));
+			let mercuryYears = ((this.age / .24));
 			const mercuryLE = 300;
 			let yearsLeft = ((mercuryLE - mercuryYears));
 			let yearsPast = ((mercuryYears - mercuryLE));
@@ -69,8 +63,7 @@ export class Human {
 	};
 
 	calculateVenusLifeExp(){
-			let age = this.age;
-			let venusYears = ((age / .62));
+			let venusYears = ((this.age / .62));
 			const venusLE = 116.1;
 			let yearsLeft = ((venusLE - venusYears));
 			let yearsPast = ((venusYears - venusLE));
@@ -82,8 +75,7 @@ export class Human {
 	};
 
 	calculateMarsLifeExp(){
-			let age = this.age;
-			let marsYears = ((age / 1.88));
+			let marsYears = ((this.age / 1.88));
 			const marsLE = 38.3;
 			let yearsLeft = ((marsLE - marsYears));
 			let yearsPast = ((marsYears - marsLE));
@@ -95,8 +87,7 @@ export class Human {
 	};
 
 	calculateJupiterLifeExp(){
-			let age = this.age;
-			let jupiterYears = ((age / 11.86));
+			let jupiterYears = ((this.age / 11.86));
 			const jupiterLE = 6.1;
 			let yearsLeft = ((jupiterLE - jupiterYears));
 			let yearsPast = ((jupiterYears - jupiterLE));
