@@ -69,6 +69,8 @@ describe ('Human', () => {
 		expect(useHuman.calculateJupiterLifeExp()).toEqual(3.9920741989881954);
 	});
 
+
+	// age has been set to 80 so that it is over the LE years
 	// test successfully returns human years past earth expectancy
 	test('should return number of human years past earth life expectancy', () => {
 		const doodleHuman = new Human(80);
@@ -80,4 +82,12 @@ describe ('Human', () => {
 		const doodleHuman = new Human(80);
 		expect(doodleHuman.calculateMercuryLifeExp()).toEqual("-33.33333333333337")
 	});
+
+	// test successfully returns human years past venus expectancy
+	test('should return number of human years past venus life expectancy', () => {
+		const doodleHuman = new Human(80);
+		expect(doodleHuman.calculateVenusLifeExp()).toEqual("-33.33333333333337")
+	});
+
+
 });
