@@ -68,4 +68,10 @@ describe ('Human', () => {
 	test('should return number of human years left OR past LE on Jupiter', () => {
 		expect(useHuman.calculateJupiterLifeExp()).toEqual(3.9920741989881954);
 	});
-})
+
+	// test successfully returns human years past earth expectancy
+	test('should return number of human years past earth life expectancy', () => {
+		const doodleHuman = new Human(80);
+		expect(doodleHuman.calculateEarthLifeExp()).toEqual(72)
+	});
+});
