@@ -72,6 +72,6 @@ describe ('Human', () => {
 	// test successfully returns human years past earth expectancy
 	test('should return number of human years past earth life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateEarthLifeExp()).toEqual(72)
+		expect(doodleHuman.calculateEarthLifeExp()).toEqual("-8")
 	});
 });

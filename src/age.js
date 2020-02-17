@@ -2,6 +2,7 @@
 export class Human {
 	constructor(age){
 			this.age = age;
+			this.earthLE = 72;
 	}
 
     // not currently testing this, will check for NaN
@@ -40,10 +41,9 @@ export class Human {
     // all return both years till life expectancy, or years past life expectancy
 
 	calculateEarthLifeExp(){
-			const earthLE = 72;
-			let yearsLeft = ((earthLE - this.age));
-			let yearsPast = ((this.age - earthLE));
-			if (this.age <= earthLE){
+			let yearsLeft = ((this.earthLE - this.age));
+			let yearsPast = ((this.age - this.earthLE));
+			if (this.age <= this.earthLE){
 					return yearsLeft;
 			} else {
 					return "-" + yearsPast;
