@@ -16,12 +16,16 @@ _This project is a webpage that allows a user to input their age, and it will re
 | ------------- |:-------------:| --------------:|
 | User enters a non-numeric| Hello | Error: NaN |
 | User enters their age | 25 | 25 |
-| User enters age for Mercury | 25 | 6  |
-| User enters age for Venus | 25 | 15.5 |
-| User enters age for Mars | 25 | 47 |
-| User enters age for Jupiter | 25 | 296.5 |
 | User enters age for Life Expectancy | 25 | 47 |
-| User enters age for years passed Life Expectancy | 100 | -28 |
+| Computer calculates age on Mercury | 25 | 104.67 |
+| Computer calculates age on Venus | 25 | 40.32 |
+| Computer calculates age on Mars | 25 | 13.30 |
+| Computer calculates age on Mercury | 25 | 2.11 |
+| User enters age for years passed Life Expectancy | 80 | 8 years passed |
+| Computer calculates age passed on Mercury | 80 | 33.33 years passed |
+| Computer calculates age passed on Venus | 80 | 12.93 years passed |
+| Computer calculates age passed on Mars | 80 | 4.25 years passed |
+| Computer calculates passed age on Mercury | 80 | 0.64 years passed |
 
 
 ## Setup/Installation Requirements
