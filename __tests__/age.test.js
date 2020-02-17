@@ -89,16 +89,16 @@ describe ('Human', () => {
 		expect(doodleHuman.calculateVenusLifeExp()).toEqual("-12.932258064516134")
 	});
 
-	// test successfully returns human years past venus expectancy
-	test('should return number of human years past venus life expectancy', () => {
+	// test successfully returns human years past mars expectancy
+	test('should return number of human years past mars life expectancy', () => {
 		const doodleHuman = new Human(80);
 		expect(doodleHuman.calculateMarsLifeExp()).toEqual("-4.253191489361704")
 	});
 	
-	// test successfully returns human years past venus expectancy
-	test('should return number of human years past venus life expectancy', () => {
+	// test successfully returns human years past jupiter expectancy
+	test('should return number of human years past jupiter life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateJupiterLifeExp()).toEqual("-4.253191489361704")
+		expect(doodleHuman.calculateJupiterLifeExp()).toEqual("-0.6453625632377751")
 	});
 
 
