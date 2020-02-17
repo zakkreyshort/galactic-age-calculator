@@ -78,6 +78,6 @@ describe ('Human', () => {
 	// test successfully returns human years past mercury expectancy
 	test('should return number of human years past mercury life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateMercuryLifeExp()).toEqual("-8")
+		expect(doodleHuman.calculateMercuryLifeExp()).toEqual("-33.33333333333337")
 	});
 });
