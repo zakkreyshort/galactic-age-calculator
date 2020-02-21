@@ -92,7 +92,7 @@ describe ('Human', () => {
 	// test successfully returns human years past mars expectancy
 	test('should return number of human years past mars life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateMarsLifeExp()).toEqual("-4.253191489361704")
+		expect(doodleHuman.calculateMarsLifeExp()).toEqual("4.253191489361704years passed LE")
 	});
 	
 	// test successfully returns human years past jupiter expectancy
