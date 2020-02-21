@@ -74,13 +74,13 @@ describe ('Human', () => {
 	// test successfully returns human years past earth expectancy
 	test('should return number of human years past earth life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateEarthLifeExp()).toEqual("8 years passed LE")
+		expect(doodleHuman.calculateEarthLifeExp()).toEqual("8years passed LE")
 	});
 
 	// test successfully returns human years past mercury expectancy
 	test('should return number of human years past mercury life expectancy', () => {
 		const doodleHuman = new Human(80);
-		expect(doodleHuman.calculateMercuryLifeExp()).toEqual("-33.33333333333337")
+		expect(doodleHuman.calculateMercuryLifeExp()).toEqual("33.33333333333337years passed LE")
 	});
 
 	// test successfully returns human years past venus expectancy
